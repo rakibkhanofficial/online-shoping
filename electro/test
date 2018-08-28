@@ -1,0 +1,58 @@
+<html>
+<body>
+<?php
+$username="root";
+$password="";
+$database="register";
+$mysqli = new mysqli("localhost", "root", "", "register"); @mysql_select_db("register") or die( "Unable to select database");
+$query2="SELECT * FROM users";
+$result=$mysqli->query($query2);
+$num=$mysqli->mysqli_num_rows($result);?>
+<table border="0" cellspacing="2" cellpadding="2">
+<tr>
+<td>
+<font face="Arial, Helvetica, sans-serif">Value1</font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif">Value2</font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif">Value3</font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif">Value4</font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif">Value5</font>
+</td>
+</tr>
+<?php
+$i=0;
+while ($i < $num) {
+$fullname=mysql_result($result,$i,"fullname");
+$mobilenumber=mysql_result($result,$i,"mobilenumber");
+$address=mysql_result($result,$i,"address");
+$userfname=mysql_result($result,$i,"username");
+$f5=mysql_result($result,$i,"field5");?>
+<tr>
+<td>
+<font face="Arial, Helvetica, sans-serif"><?php echo $fullname; ?></font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif"><?php echo $mobilenumber; ?></font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif"><?php echo $address; ?></font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif"><?php echo $username; ?></font>
+</td>
+<td>
+<font face="Arial, Helvetica, sans-serif"><?php echo $f5; ?></font>
+</td>
+</tr>
+<?php
+$i++;
+}?>
+</body>
+</html>

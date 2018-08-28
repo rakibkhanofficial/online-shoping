@@ -1,0 +1,19 @@
+﻿
+.navbar{list-style-type:none;margin:0px;padding:1px;overflow:hidden}
+.navbar li{float:left}.navbar li a{display:block;padding:8px 16px}.navbar li a:hover{color:#000;background-color:lightgreen}
+.navbar a,.topnav a,.sidenav a,.dropnav a,.products-content a,.accordion-content a{text-decoration:none !important}
+.products-content{cursor:auto;color:#000;background-color:lightpink;display:none;position:absolute;min-width:160px;margin:0;padding:0}
+.rest{overflow:hidden}
+.hide{display:none !important}.show-block,.show{display:block !important}.show-inline-block{display:inline-block !important}
+.card{border:1px solid #lightpink}
+.card-2,.example{box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important}
+.card-4,.hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important}
+.light-pink,.hover-darkgrey:hover{color:#000 !important;background-color:darkgrey}
+ul {font-size: 20px}
+h1{ background-image: url("heading.jpg");margin:0;padding:40px;font-size:40px;margin:0px;padding:0px;color:aquamarine;font-family: Algerian}
+label {font-size:50px}
+form {text-align: center}
+   p {font-size: 50px}
+   h8 {text-align: center;}
+h4  {text-align: center;font-size: 40px;color: coral}
+h7 {color: coral;font-size: 40px}

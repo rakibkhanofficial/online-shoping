@@ -1,0 +1,13 @@
+   h2 {font-size: 60px;text-align: center;color: coral}
+   label {font-size:30px}    
+    input {font-size: 25px;text-align: center} 
+    p {text-align: center;font-size: 30px}
+
+div {
+    width: 500px;
+    padding: 10px;
+    border: 10px solid pink;
+    margin: auto; 
+}
+    h3 {font-size: 30px;color:red}
+    a {color:grered
